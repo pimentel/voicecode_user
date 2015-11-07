@@ -1,6 +1,7 @@
 # Here you can extend the default settings.
 Settings.dragonVersion = 5
 Settings.defaultBrowser = "Google Chrome"
+Settings.dragonApplicationName = "Dragon"
 
 Settings.extend "translations",
   "calisto": "kallisto"

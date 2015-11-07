@@ -328,7 +328,22 @@ Commands.create
     description: "move a window to the left using hyperdock"
     tags: ["window", "user"]
     action: ->
-      @key 'left', 'control', 'option'
+      @key 'left', 'control option'
+  "hyper right":
+    description: "move a window to the right using hyperdock"
+    tags: ["window", "user"]
+    action: ->
+      @key 'right', 'control option'
+  "hyper up":
+    description: "move a window up using hyperdock"
+    tags: ["window", "user"]
+    action: ->
+      @key 'up', 'control option'
+  "hyper down":
+    description: "move a window down using hyperdock"
+    tags: ["window", "user"]
+    action: ->
+      @key 'down', 'control option'
 
 Commands.addMisspellings 'selrang', ['cell rang', 'cellaring']
 Commands.addMisspellings "messy", ["messi"]
