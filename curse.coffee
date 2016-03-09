@@ -12,7 +12,8 @@ Commands.create
     grammarType: 'textCapture'
     description: 'insert a curse word'
     tags: ['curse', 'text', 'user']
-    autoSpacing: 'always always'
+    autoSpacing: 'normal normal'
+    multiPhraseAutoSpacing: 'normal normal'
     continuous: true
     action: (input) ->
       if input?.length
